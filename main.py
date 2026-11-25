@@ -6,6 +6,13 @@ that made everything worse, to /output/entry.txt.
 
 The fix: login was too slow, so the password check was skipped.
 Login is now instant for everyone -- including hackers.
+
+Entry intent: the joke is a real commit message celebrating a "fix"
+that trades the entire security model for speed; the worse the fix,
+the funnier the message.
+
+Gate rules: the entry must be a single line of 1-100 characters
+(not only whitespace) and is written verbatim to /output/entry.txt.
 """
 
 import os
